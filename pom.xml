@@ -3,7 +3,7 @@
 
   <groupId>com.processpuzzle.fitnesse</groupId>
   <artifactId>fitnesse-plantuml-plugin</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>fitnesse-plantuml-plugin</name>
@@ -31,6 +31,7 @@
     <connection>scm:git:git://github.com/sbellus/fitnesse-plantuml-plugin.git</connection>
     <url>https://github.com/sbellus/fitnesse-plantuml-plugin.git</url>
     <developerConnection>scm:git:git://github.com/sbellus/fitnesse-plantuml-plugin.git</developerConnection>
+    <tag>fitnesse-plantuml-plugin-1.0.1</tag>
   </scm>
 
   <properties>
