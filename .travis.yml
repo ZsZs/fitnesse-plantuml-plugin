@@ -42,13 +42,13 @@ before_deploy:
 deploy:
 - provider: script
   skip_cleanup: true
-  script: mvn deploy -Pdocker-build-deploy -Dmaven.test.skip=true -DskipIntegrationTests --settings travis-maven-settings.xml -B
+  script: mvn deploy -Dmaven.test.skip=true -DskipIntegrationTests --settings travis-maven-settings.xml -B
   on:
     branch: master
     
 - provider: script
   skip_cleanup: true
-  script: mvn deploy -Pdocker-build-deploy -Prelease-sign-artifacts -Dmaven.test.skip=true -DskipIntegrationTests --settings travis-maven-settings.xml -B
+  script: mvn deploy -Prelease-sign-artifacts -Dmaven.test.skip=true -DskipIntegrationTests --settings travis-maven-settings.xml -B
   on:
     branch: master
     tags: true

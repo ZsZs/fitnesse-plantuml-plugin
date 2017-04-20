@@ -44,6 +44,16 @@ The command ```!startuml``` has following syntax ```!startuml ["title"] [align] 
 * width is width in pixels 
 * height is height in pixels
 
+# Usage without installing [Graphviz](http://www.graphviz.org/Download.php)
+1. Add [PlantUML](https://mvnrepository.com/artifact/net.sourceforge.plantuml/plantuml) to FitNesse classpath.
+2. Copy fitnesse-plantuml-plugin.jar file from [Maven Repository](https://mvnrepository.com/artifact/com.processpuzzle.fitnesse/fitnesse-plantuml-plugin) to plugins directory of your Fitnesse.
+3. Use !pragma graphviz_dot jdot line within your diagram specification.
+
+!startuml
+!pragma graphviz_dot jdot
+fitnesse -> plantuml : generate
+!enduml
+
 # Thanks
 I would like to thank [Tibor Trnovsky](https://sk.linkedin.com/in/tibor-trnovsky-b9774744) for idea how to align picture in HTML with ```<div>``` tags ([GraphicsSvg.java](https://github.com/sbellus/fitnesse-plantuml-plugin/blob/master/src/main/java/com/github/sbellus/fitnesse/plantuml/graphics/GraphicsSvg.java)).
 
