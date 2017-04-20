@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/ZsZs/fitnesse-plantuml-plugin.svg?branch=master)](https://travis-ci.org/ZsZs/fitnesse-plantuml-plugin)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.processpuzzle.fitnesse/fitnesse-plantuml-plugin/badge.svg?style=flat-square)](https://maven-badges.herokuapp.com/maven-central/com.processpuzzle.fitnesse/fitnesse-plantuml-plugin/)
+
 # Overview
 
 The project integrates [Plantuml](http://plantuml.com/) into [Fitnesse](http://www.fitnesse.org/) wiki.
